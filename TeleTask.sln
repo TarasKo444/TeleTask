@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Bot.Host", "TeleTask.Bot.Host\TeleTask.Bot.Host.csproj", "{F7E1DD91-B89A-48A1-AC8F-BCD7A0139856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Infrastructure", "TeleTask.Infrastructure\TeleTask.Infrastructure.csproj", "{769B4D63-3398-4C15-9FB0-97E441DD1BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Application", "TeleTask.Application\TeleTask.Application.csproj", "{78CB457C-F2A5-496E-9378-6CBAB38E6BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E1DD91-B89A-48A1-AC8F-BCD7A0139856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E1DD91-B89A-48A1-AC8F-BCD7A0139856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E1DD91-B89A-48A1-AC8F-BCD7A0139856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E1DD91-B89A-48A1-AC8F-BCD7A0139856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769B4D63-3398-4C15-9FB0-97E441DD1BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769B4D63-3398-4C15-9FB0-97E441DD1BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769B4D63-3398-4C15-9FB0-97E441DD1BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769B4D63-3398-4C15-9FB0-97E441DD1BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CB457C-F2A5-496E-9378-6CBAB38E6BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CB457C-F2A5-496E-9378-6CBAB38E6BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CB457C-F2A5-496E-9378-6CBAB38E6BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CB457C-F2A5-496E-9378-6CBAB38E6BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
