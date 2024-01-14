@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Application", "Tel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Bot.Host", "TeleTask.Bot.Host\TeleTask.Bot.Host.csproj", "{B41E2310-6BE4-40E4-BAA1-33669A7559FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Domain", "TeleTask.Domain\TeleTask.Domain.csproj", "{389A1597-178A-4D50-91E2-52C5D492D859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleTask.Common", "TeleTask.Common\TeleTask.Common.csproj", "{A2F289F2-09D3-409C-BFB3-B1BDB97EF0F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{B41E2310-6BE4-40E4-BAA1-33669A7559FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B41E2310-6BE4-40E4-BAA1-33669A7559FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B41E2310-6BE4-40E4-BAA1-33669A7559FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389A1597-178A-4D50-91E2-52C5D492D859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389A1597-178A-4D50-91E2-52C5D492D859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389A1597-178A-4D50-91E2-52C5D492D859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389A1597-178A-4D50-91E2-52C5D492D859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F289F2-09D3-409C-BFB3-B1BDB97EF0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F289F2-09D3-409C-BFB3-B1BDB97EF0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F289F2-09D3-409C-BFB3-B1BDB97EF0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F289F2-09D3-409C-BFB3-B1BDB97EF0F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
