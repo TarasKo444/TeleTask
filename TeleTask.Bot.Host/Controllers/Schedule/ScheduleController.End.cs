@@ -14,6 +14,8 @@ public partial class ScheduleController
 
         var input = await AwaitText();
 
+        if(input == "/start") return;
+        
         var ids = input.Split();
 
         foreach (var id in ids)

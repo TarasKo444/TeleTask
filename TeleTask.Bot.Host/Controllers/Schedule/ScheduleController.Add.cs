@@ -15,8 +15,10 @@ public partial class ScheduleController
 
         var name = await AwaitText();
 
+        if (name == "/start") return;
+        
         YearSelect("", name);
-        await Send();
+        await Send();   
     }
 
     [Action]
